@@ -1,0 +1,65 @@
+body{
+    background: url("./bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: serif;
+    color: black;
+    text-align: center;
+}
+
+@font-face {
+    font-family: copyduck;
+    src: url(Copyduck.ttf);
+}
+@font-face {
+    font-family: jan;
+    src: url(JandaManateeSolid.ttf);
+}
+#name{
+    font-size: 50px;
+    font-family: copyduck;
+    color: whitesmoke;
+    
+}
+#result{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: jan;
+    color: rgb(0, 0, 0);
+}
+#board{
+    width: 450px;
+    height: 450px;
+    background: lightblue;
+    border: 5px solid black;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+#board img{
+    width: 50px;
+    height: 50px;
+}
+
+body{
+	-webkit-animation: bg-pan-tr 8s infinite alternate-reverse both;
+	        animation: bg-pan-tr 8s infinite alternate-reverse both;
+}
+ @-webkit-keyframes bg-pan-tr {
+    0% {
+      background-position: 0% 100%;
+    }
+    100% {
+      background-position: 100% 0%;
+    }
+  }
+  @keyframes bg-pan-tr {
+    0% {
+      background-position: 0% 100%;
+    }
+    100% {
+      background-position: 100% 0%;
+    }
+  }
+  
+  
